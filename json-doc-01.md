@@ -1,6 +1,5 @@
-# JSON  
-: https://www.quackit.com/json/tutorial/what_is_json.cfm
-:  JSON (JavaScript Object Notation) 
+# JSON(JavaScript Object Notation)
+- https://www.quackit.com/json/tutorial/what_is_json.cfm
 
 JSON (JavaScript Object Notation) is quite possibly the most widely used data format for data interchange on the web. It has likely surpassed XML (which is used in AJAX applications) as the most common format used for asynchronous browser/server communication.
 - 웹에서 데이터 교환에 가장 널리 사용되는 데이터 형식입니다. 비동기 브라우저 / 서버 통신에 사용되는 가장 일반적인 형식으로 XML (AJAX 애플리케이션에서 사용)을 능가했을 것입니다.
