@@ -1,4 +1,3 @@
-
 # JSON  
 :  JSON (JavaScript Object Notation) 
 
@@ -15,7 +14,7 @@ JSON was inspired by the object literals of JavaScript (also known as ECMAScript
 
 
 1.   JSON  Obj   
-
+```
 { key : value}
 { "artistname" : "deep purple"}
 {
@@ -28,11 +27,15 @@ JSON was inspired by the object literals of JavaScript (also known as ECMAScript
   "origin" : "Hertford, United Kingdom"
 }
 
+```
+
 2.   JSON  Array
 
 -  2.1  JSON  Array
 A JSON array is an ordered collection of values. It allows you to provide a list of values.
 JSON 배열은 정렬 된 값 모음입니다. 값 목록을 제공 할 수 있습니다.
+
+```
 
 {
     "artists" : [
@@ -52,8 +55,12 @@ JSON 배열은 정렬 된 값 모음입니다. 값 목록을 제공 할 수 있�
     ]
 }
 
+```
+
 -  2.2  White Space
 : 공백을 사용하여 JSON 문서를 더 읽기 쉽게 만들 수 있습니다. 실제로 이것은 JSON 및 대부분의 프로그래밍 언어와의 공통 규칙입니다.
+
+```
 {
     "artists" : [
         { "artistname" : "Deep purple", "formed" : "1968" },
@@ -62,11 +69,15 @@ JSON 배열은 정렬 된 값 모음입니다. 값 목록을 제공 할 수 있�
     ]
 }
 
+```
+
 - 2.3 Nested Data
 Most JSON files contain lots of nested data. This is driven by the structure of the data.
 대부분의 JSON 파일에는 많은 중첩 데이터가 포함됩니다. 이는 데이터 구조에 의해 결정됩니다.
 
 ex1)
+
+```
 
 {
     "artists" : [
@@ -90,8 +101,11 @@ ex1)
     ]
 }
 
+```
+
 ex2)
 
+```
 {
     "artists" : [
         {
@@ -129,6 +143,7 @@ ex2)
     ]
 }
 
+```
 
 
 
