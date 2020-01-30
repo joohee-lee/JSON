@@ -1,4 +1,5 @@
 # JSON  
+: https://www.quackit.com/json/tutorial/what_is_json.cfm
 :  JSON (JavaScript Object Notation) 
 
 JSON (JavaScript Object Notation) is quite possibly the most widely used data format for data interchange on the web. It has likely surpassed XML (which is used in AJAX applications) as the most common format used for asynchronous browser/server communication.
