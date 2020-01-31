@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> JSON - Javascript </title>
+</head>
+<body>
+    <script>
+        function displayArtists( ){
+
+            //JSON data
+            var data = {
+                "artists" : [
+                    {
+                        "artistname" : "지코",
+                        "boarn" :  "1992"
+                    },
+                    {
+                        "artistname" : "화사",
+                        "boarn" :  "1995"
+                    },
+                    {
+                        "artistname" : "뷔",
+                        "boarn" :  "1995"
+                    }
+                ]
+            }
+
+            //output
+            var output = "<h1>Artists</h1>";
+            output += "<ul>";
+
+            //loop through  li
+            for( var i in data.artists) {
+                output += "<li>" + data.artists[i].artistname + " (Born :  " +  data.artists[i].boarn+ ") </li>";
+            }    
+
+            output += "</ul>";
+
+           // Output the data to the "artistList" element
+            document.getElementById("artistList").innerHTML = output;
+        }
+
+        window.onload =  function(){
+            displayArtists();
+        }
+        
+    </script>
+
+    <div id="artistList"></div>
+    
+</body>
+</html>
