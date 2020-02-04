@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JSON - Javascript - XMLHttpRequest</title>
+    
+    <!--
+        * readStat 상태 / 값 / 설명 / 의미
+            readyState == 0  / 객체만 생성( open 메소드가 생성되지 않음.) / unInitialized 
+            readyState == 1  / open 메소드 호출 / unInitialized 
+            readyState == 2  / send 메소드 호출, status 헤더가 도착하지 않은 상태 / loading 
+            readyState == 3  / 데이터의 일부를 받은 상태 / Interactive
+            readyState == 4  / 데이터를 전부 받은 상태 / Completed
+        
+        * status - 서버로 부터의 응답상태
+            200 / OK / 요청성공
+            403 / forbidden / 접근거부
+            404 / not found / 페이지 없음. 
+            500 / Internal Server Error / 서버 오류 발생
+    -->
+    
     <script>
         // Store XMLHttpRequest and the JSON file location in variables
         var xhr = new XMLHttpRequest();
